@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "_LayoutCoreAdmin";
+}
+@using Kursovaya.Models
+@model UserViewModel
+
+<h1>Добавить Администратора</h1>
+
+<div class="table-responsive">
+    <form asp-action="Insert">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group" style="margin-bottom:10px">
+            <label asp-for="UserName" class="control-label"></label>
+            <input asp-for="UserName" class="form-control" />
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+        <div class="form-group" style="margin-bottom:10px">
+            <label asp-for="Password" class="control-label"></label>
+            <input asp-for="Password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <div class="form-group" style="margin-bottom:10px">
+            <button type="submit" class="btn btn-primary">Добавить</button>
+        </div>
+    </form>
+</div>

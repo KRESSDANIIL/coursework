@@ -1,0 +1,20 @@
+﻿@model Kursovaya.Models.LoginViewModel
+
+<h2>Login</h2>
+
+<form asp-controller="Login" asp-action="Login" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="AdminLogin" class="control-label"></label>
+        <input asp-for="AdminLogin" class="form-control" />
+        <span asp-validation-for="AdminLogin" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AdminPassword" class="control-label"></label>
+        <input asp-for="AdminPassword" type="password" class="form-control" />
+        <span asp-validation-for="AdminPassword" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Login" class="btn btn-primary" />
+    </div>
+</form>

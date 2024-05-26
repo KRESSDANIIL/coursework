@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\controllers\\trainercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\controllers\\trainercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\client\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\client\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\trainer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\trainer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\user\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\user\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\trainer\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\trainer\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\clientcoreadmin\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\clientcoreadmin\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\models\\clientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\models\\clientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\clientcoreadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\clientcoreadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\shared\\_layoutcoreadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\shared\\_layoutcoreadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\models\\trainerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\models\\trainerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\controllers\\clientcoreadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\controllers\\clientcoreadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\login\\seccescoreadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\login\\seccescoreadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\login\\seccesadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\login\\seccesadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|c:\\users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2BD16072-9EB5-428E-9444-B8F47F9A51F5}|kursovaya\\Kursovaya.csproj|solutionrelative:kursovaya\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Client\\Index.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Client\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Client\\Index.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Client\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T14:37:56.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "insert.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Client\\insert.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Client\\insert.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Client\\insert.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Client\\insert.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T16:45:41.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T14:39:00.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Controllers\\UserController.cs",
+              "RelativeToolTip": "kursovaya\\Controllers\\UserController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwDgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:34:31.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "kursovaya\\Controllers\\ClientController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAADwv0EAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T20:25:56.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrainerController.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Controllers\\TrainerController.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Controllers\\TrainerController.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Controllers\\TrainerController.cs",
+              "RelativeToolTip": "kursovaya\\Controllers\\TrainerController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwFMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T20:51:37.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T14:39:02.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Models\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Models\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Models\\UserViewModel.cs",
+              "RelativeToolTip": "kursovaya\\Models\\UserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:33:10.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T20:13:06.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Trainer\\Index.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Trainer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Trainer\\Index.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Trainer\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T21:02:54.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Program.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Program.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Program.cs",
+              "RelativeToolTip": "kursovaya\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T14:39:17.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T19:59:45.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Privacy.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T22:38:14.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "kursovaya\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T14:41:16.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "insert.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\ClientCoreAdmin\\insert.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\ClientCoreAdmin\\insert.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\ClientCoreAdmin\\insert.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\ClientCoreAdmin\\insert.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T20:41:19.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "insert.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Trainer\\insert.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Trainer\\insert.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Trainer\\insert.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Trainer\\insert.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T21:06:07.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "insert.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\User\\insert.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\User\\insert.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\User\\insert.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\User\\insert.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T21:07:23.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClientViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Models\\ClientViewModel.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Models\\ClientViewModel.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Models\\ClientViewModel.cs",
+              "RelativeToolTip": "kursovaya\\Models\\ClientViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T14:39:07.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\ClientCoreAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\ClientCoreAdmin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\ClientCoreAdmin\\Index.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\ClientCoreAdmin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T16:48:47.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_LayoutCoreAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Shared\\_LayoutCoreAdmin.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Shared\\_LayoutCoreAdmin.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Shared\\_LayoutCoreAdmin.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Shared\\_LayoutCoreAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T16:46:15.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T16:44:49.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T21:38:33.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TrainerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Models\\TrainerViewModel.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Models\\TrainerViewModel.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Models\\TrainerViewModel.cs",
+              "RelativeToolTip": "kursovaya\\Models\\TrainerViewModel.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T20:52:51.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClientCoreAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Controllers\\ClientCoreAdminController.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Controllers\\ClientCoreAdminController.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Controllers\\ClientCoreAdminController.cs",
+              "RelativeToolTip": "kursovaya\\Controllers\\ClientCoreAdminController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T20:38:37.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "kursovaya\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:34:25.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "kursovaya\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAACIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T14:39:08.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "kursovaya\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T14:39:53.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SeccesCoreAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Login\\SeccesCoreAdmin.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Login\\SeccesCoreAdmin.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Login\\SeccesCoreAdmin.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Login\\SeccesCoreAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T14:39:51.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SeccesAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Login\\SeccesAdmin.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Login\\SeccesAdmin.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Login\\SeccesAdmin.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Login\\SeccesAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T14:39:51.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "kursovaya\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "kursovaya\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:32:59.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T20:19:37.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "kursovaya\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "kursovaya\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T20:19:34.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\appsettings.json",
+              "RelativeDocumentMoniker": "kursovaya\\appsettings.json",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\appsettings.json",
+              "RelativeToolTip": "kursovaya\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-26T14:42:48.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Dockerfile",
+              "RelativeDocumentMoniker": "kursovaya\\Dockerfile",
+              "ToolTip": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Dockerfile",
+              "RelativeToolTip": "kursovaya\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-26T14:56:29.569Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
