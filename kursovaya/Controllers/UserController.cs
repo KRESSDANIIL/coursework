@@ -40,16 +40,13 @@ namespace Kursovaya.Users
         [HttpPost]
         public IActionResult Insert(UserViewModel userView)
         {
-            // Check if the user already exists in the database
             var existingUser = ctx.Users.FirstOrDefault(u => u.UserName == userView.UserName);
             if (existingUser != null)
             {
-                // User already exists, return an error message
                 ViewBag.ErrorMessage = "The user with this username already exists.";
                 return View();
             }
 
-            // If the user doesn't exist, create a new user and add it to the database
             var user = new User
             {
                 UserName = userView.UserName,
@@ -60,6 +57,7 @@ namespace Kursovaya.Users
             ctx.Users.Add(user);
             ctx.SaveChanges();
             return RedirectToAction("Index");
+            return View(userView);
         }
 
         public IActionResult Remove(int id)
