@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Data
 {
@@ -16,6 +17,7 @@ namespace Data
         public DbSet<Session> Sessions { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Membership> Memberships { get; set; }
+        public DbSet<ClientMembership> ClientMemberships { get; set; }
     }
     public class User
     {
@@ -35,23 +37,24 @@ namespace Data
         public DateTime DateOfBirth { get; set; }
         public string Gender { get; set; }
         public string MembershipType { get; set; }
-        public DateTime MembershipStartDate { get; set; }
-        public DateTime MembershipEndDate { get; set; }
+        public virtual ICollection<ClientMembership> ClientMemberships { get; set; }
         public virtual ICollection<Payment> Payments { get; set; }
-        public virtual ICollection<Membership> Memberships { get; set; }
     }
-
+    public class ClientMembership
+    {
+        [Key]
+        public int Id { get; set; }
+        public int ClientId { get; set; }
+        public int MembershipId { get; set; }
+        public virtual Client Client { get; set; }
+        public virtual Membership Membership { get; set; }
+    }
     public class Membership
     {
         public int Id { get; set; }
-        public int ClientId { get; set; }
         public string MembershipType { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
-        public decimal Cost { get; set; }
+        public float Cost { get; set; }
 
-        // Navigation properties
-        public virtual Client Client { get; set; }
         public virtual ICollection<Session> Sessions { get; set; }
         public virtual ICollection<Payment> Payments { get; set; }
     }
@@ -90,6 +93,7 @@ namespace Data
         // Navigation properties
         public virtual Membership Membership { get; set; }
     }
+
     public class Login
     {
         [Key]

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kursovaya")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ce86e07536f477894868ce282f1dbbd88c6dcca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dd9df32826234d7159b119465042972e0e37261")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kursovaya")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kursovaya")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

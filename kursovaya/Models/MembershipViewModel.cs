@@ -4,11 +4,18 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Kursovaya.Models
 {
-    public class SessionViewModel
+    public class MembershipViewModel
     {
         [Key]
         public int Id { get; set; }
 
+        
+            public int ClientId { get; set; }
+            public string MembershipType { get; set; }
+            public decimal Cost { get; set; }
+            public virtual Client Client { get; set; }
+            public virtual ICollection<Session> Sessions { get; set; }
+            public virtual ICollection<Payment> Payments { get; set; }
         [Required(ErrorMessage = "Необходимо указать id тренера")]
         [Display(Name = "Id Тренера")]
         public int TrainerId { get; set; }

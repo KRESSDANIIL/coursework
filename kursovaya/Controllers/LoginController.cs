@@ -39,7 +39,7 @@ public class LoginController : Controller
                 var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var principal = new ClaimsPrincipal(identity);
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
-                return View("SeccesCoreAdmin");
+                return RedirectToAction("Index", "Home");
             }
             else if (Adminlogin != null)
             {
@@ -51,7 +51,7 @@ public class LoginController : Controller
                 var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var principal = new ClaimsPrincipal(identity);
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
-                return View("SeccesAdmin");
+                return RedirectToAction("Index", "Home"); ;
             }
             else
             {

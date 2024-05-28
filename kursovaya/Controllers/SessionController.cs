@@ -60,16 +60,28 @@ namespace Kursovaya.Controllers
             };
 
 
-            //if (session.TrainerId != null && session.SessionDate != null && session.Duration != null && session.SessionType != null && session.MembershipId != null)
-            //{
+
             if (ModelState.IsValid)
             {
+                var membership = ctx.Memberships.Find(session.MembershipId);
+                if (membership == null)
+                {
+                    // Handle error: membership not found
+                    ModelState.AddModelError("", "Membership not found");
+                    return View(sessionView);
+                }
+
+                var trainer = ctx.Trainers.Find(session.TrainerId);
+                if (trainer == null)
+                {
+                    // Handle error: membership not found
+                    ModelState.AddModelError("", "Membership not found");
+                    return View(sessionView);
+                }
                 ctx.Sessions.Add(session);
                 ctx.SaveChanges();
                 return RedirectToAction("Index");
-                return View(sessionView);
             }
-
             return View(sessionView);
         }
 

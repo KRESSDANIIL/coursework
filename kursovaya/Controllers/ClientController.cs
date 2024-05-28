@@ -36,8 +36,6 @@ namespace Kursovaya.Controllers
                     DateOfBirth = client.DateOfBirth,
                     Gender = client.Gender,
                     MembershipType = client.MembershipType,
-                    MembershipStartDate = client.MembershipStartDate,
-                    MembershipEndDate = client.MembershipEndDate
                 };
 
                 clientViewModels.Add(thisViewModel);
@@ -55,8 +53,20 @@ namespace Kursovaya.Controllers
 
 
         [HttpPost]
-        public IActionResult Insert(ClientViewModel clientView)
+        public async Task<IActionResult> Insert(ClientViewModel clientView)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(clientView);
+            }
+
+            var membership = await ctx.Memberships.FirstOrDefaultAsync(m => m.MembershipType == clientView.MembershipType);
+            if (membership == null)
+            {
+                ModelState.AddModelError("", "Membership type does not exist");
+                return View(clientView);
+            }
+
             var client = new Client
             {
                 FirstName = clientView.FirstName,
@@ -66,20 +76,23 @@ namespace Kursovaya.Controllers
                 DateOfBirth = clientView.DateOfBirth,
                 Gender = clientView.Gender,
                 MembershipType = clientView.MembershipType,
-                MembershipStartDate = clientView.MembershipStartDate,
-                MembershipEndDate = clientView.MembershipEndDate
             };
 
-            if (ModelState.IsValid)
+            ctx.Clients.Add(client);
+            await ctx.SaveChangesAsync();
+
+            var clientMembership = new ClientMembership
             {
-                ctx.Clients.Add(client);
-                ctx.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(clientView);
+                ClientId = client.Id,
+                MembershipId = membership.Id,
+            };
+            ctx.ClientMemberships.Add(clientMembership);
+            await ctx.SaveChangesAsync();
+
+            return RedirectToAction("Index");
         }
 
-       
+
         public IActionResult Remove(int id)
         {
             var model = ctx.Clients.Find(id);

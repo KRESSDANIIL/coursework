@@ -18,14 +18,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ffdan\source\repos\kursovaya\kursovaya
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/ClientCoreAdmin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50Q29yZUFkbWluXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/ClientCoreAdmin/insert.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50Q29yZUFkbWluXGluc2VydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/Client/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,16 +34,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/Login/insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5caW5zZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/Login/SeccesAdmin.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2VjY2VzQWRtaW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/Login/SeccesCoreAdmin.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2VjY2VzQ29yZUFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/Privacy.cshtml]
@@ -68,14 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/TrainerCoreAdmin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lckNvcmVBZG1pblxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/TrainerCoreAdmin/insert.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lckNvcmVBZG1pblxpbnNlcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/Trainer/Index.cshtml]
@@ -105,11 +85,3 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-diq6o2of26
-
-[C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/Shared/_LayoutAdmin.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-8gn7z5tf06
-
-[C:/Users/ffdan/source/repos/kursovaya/kursovaya/Views/Shared/_LayoutCoreAdmin.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDb3JlQWRtaW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-ubutqh4b5m

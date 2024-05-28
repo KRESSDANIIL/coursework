@@ -1,5 +1,5 @@
 ﻿@{
-    Layout = "_LayoutAdmin";
+    Layout = "_Layout";
 }
 @using Kursovaya.Models
 @model List<ClientViewModel>
@@ -17,9 +17,6 @@
                 <th>Телефон</th>
                 <th>Дата рождения</th>
                 <th>Пол</th>
-                <th>Тип членства</th>
-                <th>Дата получения членства</th>
-                <th>Дата окончания членства</th>
             </tr>
         </thead>
         <tbody>
@@ -33,9 +30,6 @@
                     <td>@client.Phone</td>
                     <td>@client.DateOfBirth</td>
                     <td>@client.Gender</td>
-                    <td>@client.MembershipType</td>
-                    <td>@client.MembershipStartDate</td>
-                    <td>@client.MembershipEndDate</td>
                     <td><a class="btn btn-danger btn-sm" style="margin: 0.2em" asp-action="Remove" asp-route-id="@client.Id">Удалить</a></td>
                 </tr>
             }
