@@ -10,14 +10,12 @@ namespace Data
 
         }
 
-
         public DbSet<User> Users { get; set; }
         public DbSet<Client> Clients { get; set; }
         public DbSet<Trainer> Trainers { get; set; }
         public DbSet<Session> Sessions { get; set; }
         public DbSet<Payment> Payments { get; set; }
-        public DbSet<Login> Logins { get; set; }
-
+        public DbSet<Membership> Memberships { get; set; }
     }
     public class User
     {
@@ -39,11 +37,24 @@ namespace Data
         public string MembershipType { get; set; }
         public DateTime MembershipStartDate { get; set; }
         public DateTime MembershipEndDate { get; set; }
-        public virtual ICollection<Session> Sessions { get; set; }
         public virtual ICollection<Payment> Payments { get; set; }
-
+        public virtual ICollection<Membership> Memberships { get; set; }
     }
 
+    public class Membership
+    {
+        public int Id { get; set; }
+        public int ClientId { get; set; }
+        public string MembershipType { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public decimal Cost { get; set; }
+
+        // Navigation properties
+        public virtual Client Client { get; set; }
+        public virtual ICollection<Session> Sessions { get; set; }
+        public virtual ICollection<Payment> Payments { get; set; }
+    }
     public class Trainer
     {
         public int Id { get; set; }
@@ -59,23 +70,25 @@ namespace Data
     {
         public int Id { get; set; }
         public int TrainerId { get; set; }
-        public int ClientId { get; set; }
         public DateTime SessionDate { get; set; }
-        public TimeSpan SessionTime { get; set; }
         public int Duration { get; set; }
         public string SessionType { get; set; }
+        public int MembershipId { get; set; }
         public virtual Trainer Trainer { get; set; }
-        public virtual Client Client { get; set; }
+        public virtual Membership Membership { get; set; }
     }
+
 
     public class Payment
     {
         public int Id { get; set; }
-        public int ClientId { get; set; }
+        public int MembershipId { get; set; }
         public DateTime PaymentDate { get; set; }
         public decimal PaymentAmount { get; set; }
         public string PaymentMethod { get; set; }
-        public virtual Client Client { get; set; }
+
+        // Navigation properties
+        public virtual Membership Membership { get; set; }
     }
     public class Login
     {

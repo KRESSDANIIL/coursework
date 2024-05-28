@@ -1,11 +1,11 @@
 ﻿@{
-    Layout = "_LayoutAdmin";
+    Layout = "_LayoutCoreAdmin";
 }
 @using Kursovaya.Models
 @model List<TrainerViewModel>
 
 <h1>Тренеры</h1>
-<a class="btn btn-primary" asp-controller="Trainer" asp-action="Insert" style="margin-top:5px; margin-bottom:5px;">Добавить тренера</a>
+<a class="btn btn-primary" asp-controller="TrainerCoreAdmin" asp-action="Insert" style="margin-top:5px; margin-bottom:5px;">Добавить тренера</a>
 
 <div class="table-responsive">
     <table class="table table-striped table-hover">

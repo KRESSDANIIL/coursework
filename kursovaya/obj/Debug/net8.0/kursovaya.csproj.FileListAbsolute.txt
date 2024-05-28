@@ -148,3 +148,4 @@ C:\Users\ffdan\source\repos\kursovaya\kursovaya\obj\Debug\net8.0\scopedcss\Views
 C:\Users\ffdan\source\repos\kursovaya\kursovaya\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutAdmin.cshtml.rz.scp.css
 C:\Users\ffdan\source\repos\kursovaya\kursovaya\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutCoreAdmin.cshtml.rz.scp.css
 C:\Users\ffdan\source\repos\kursovaya\kursovaya\obj\Debug\net8.0\Kursovaya.sourcelink.json
+C:\Users\ffdan\source\repos\kursovaya\kursovaya\bin\Debug\net8.0\System.Security.Permissions.dll

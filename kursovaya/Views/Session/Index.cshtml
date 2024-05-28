@@ -1,0 +1,38 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+}
+@using Kursovaya.Models
+@model List<SessionViewModel>
+
+<h1>Занятия</h1>
+<a class="btn btn-primary" asp-controller="Session" asp-action="Insert" style="margin-top:5px; margin-bottom:5px;">Добавить Занятие</a>
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>IdТренера</th>
+                <th>Фамилия</th>
+                <th>Дата и время</th>
+                <th>Длительность</th>
+                <th>Тип</th>
+                <th>Id Членства</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Session in Model)
+            {
+                <tr>
+                    <td>@Session.Id</td>
+                    <td>@Session.TrainerId</td>
+                    <td>@Session.SessionTime</td>
+                    <td>@Session.Duration</td>
+                    <td>@Session.SessionType</td>
+                    <td>@Session.MembershipId</td>
+                    <td><a class="btn btn-danger btn-sm" style="margin: 0.2em" asp-action="Remove" asp-route-id="@Session.Id">Удалить</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

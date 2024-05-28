@@ -1,5 +1,6 @@
 ﻿using Data;
 using Kursovaya.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
@@ -8,6 +9,7 @@ using System.Reflection;
 
 namespace Kursovaya.Controllers
 {
+    [Authorize(Roles = "Admin, CoreAdmin")]
     public class ClientCoreAdminController(
         ApplicationDbContext ctx
         ) : Controller
@@ -68,8 +70,8 @@ namespace Kursovaya.Controllers
                 ctx.Clients.Add(client);
                 ctx.SaveChanges();
                 return RedirectToAction("Index");
-            }
 
+            }
             return View(clientView);
         }
 

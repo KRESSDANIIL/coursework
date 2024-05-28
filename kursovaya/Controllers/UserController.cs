@@ -1,5 +1,6 @@
 ﻿using Data;
 using Kursovaya.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
@@ -8,6 +9,7 @@ using System.Reflection;
 
 namespace Kursovaya.Users
 {
+    [Authorize(Roles = "CoreAdmin")]
     public class UserController(
         ApplicationDbContext ctx
         ) : Controller
@@ -54,10 +56,13 @@ namespace Kursovaya.Users
                 Role = "Admin"
             };
 
-            ctx.Users.Add(user);
-            ctx.SaveChanges();
-            return RedirectToAction("Index");
-            return View(userView);
+            if (user.UserName != null && user.Password != null) {
+                ctx.Users.Add(user);
+                ctx.SaveChanges();
+                return RedirectToAction("Index");
+                return View(userView);
+            }
+            return View();
         }
 
         public IActionResult Remove(int id)

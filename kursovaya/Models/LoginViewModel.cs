@@ -14,6 +14,5 @@ namespace Kursovaya.Models
         [Display(Name = "Пароль")]
         public string AdminPassword { get; set; }
 
-        public bool RememberMe { get; set; }
     }
 }
