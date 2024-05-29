@@ -35,16 +35,9 @@ namespace Kursovaya.Models
 
         public required string Gender { get; set; }
 
-        [Required(ErrorMessage = "Необходимо указать Тип членаства")]
-        [Display(Name = "Тип членства")]
+        [Required(ErrorMessage = "Необходимо указать Тип пропуска")]
+        [Display(Name = "Тип пропуска")]
         public string MembershipType { get; set; }
 
-        [Required(ErrorMessage = "Необходимо указать дату получения членства")]
-        [Display(Name = "Дата получения членства")]
-        public DateTime MembershipStartDate { get; set; }
-
-        [Required(ErrorMessage = "Необходимо указать дату окончания членства")]
-        [Display(Name = "Дата окончания членства")]
-        public DateTime MembershipEndDate { get; set; }
     }
 }

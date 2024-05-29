@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Kursovaya.csproj": {}
+    "C:\\Users\\ffdan\\source\\repos\\Git\\kursovaya\\Kursovaya.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Kursovaya.csproj": {
+    "C:\\Users\\ffdan\\source\\repos\\Git\\kursovaya\\Kursovaya.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Kursovaya.csproj",
+        "projectUniqueName": "C:\\Users\\ffdan\\source\\repos\\Git\\kursovaya\\Kursovaya.csproj",
         "projectName": "Kursovaya",
-        "projectPath": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Kursovaya.csproj",
+        "projectPath": "C:\\Users\\ffdan\\source\\repos\\Git\\kursovaya\\Kursovaya.csproj",
         "packagesPath": "C:\\Users\\ffdan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\obj\\",
+        "outputPath": "C:\\Users\\ffdan\\source\\repos\\Git\\kursovaya\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

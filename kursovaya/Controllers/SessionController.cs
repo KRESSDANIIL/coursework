@@ -75,7 +75,7 @@ namespace Kursovaya.Controllers
                 if (trainer == null)
                 {
                     // Handle error: membership not found
-                    ModelState.AddModelError("", "Membership not found");
+                    ModelState.AddModelError("", "Trainer not found");
                     return View(sessionView);
                 }
                 ctx.Sessions.Add(session);

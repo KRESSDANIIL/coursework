@@ -87,10 +87,10 @@ namespace Data
         public int Id { get; set; }
         public int MembershipId { get; set; }
         public DateTime PaymentDate { get; set; }
-        public decimal PaymentAmount { get; set; }
-        public string PaymentMethod { get; set; }
-
+        public float PaymentAmount { get; set; }
+        public int ClientId { get; set; }
         // Navigation properties
+        public virtual Client Client { get; set; }
         public virtual Membership Membership { get; set; }
     }
 
@@ -101,4 +101,11 @@ namespace Data
         public string AdminPassword { get; set; }
     }
 
+    public class ChekerSession
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public DateTime Date { get; set; }
+    }
 }

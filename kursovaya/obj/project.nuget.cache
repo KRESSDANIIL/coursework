@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YL+70EqnZDBYjr7W29f4vGmKQ0caESSnusQWikdVyqTvTv4sa02OPPkpSE4X0gMa7jTVbj23YInH53Sp0E9bSQ==",
+  "dgSpecHash": "fL+Ds15KH/C5g0VLWATvpJNLqD/Q7YteMvBS6ZLGrdWWS8KCkNg2IxMOpqSdsWd04jL2kp60OszLOZIirSuHdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ffdan\\source\\repos\\kursovaya\\kursovaya\\Kursovaya.csproj",
+  "projectFilePath": "C:\\Users\\ffdan\\source\\repos\\Git\\kursovaya\\Kursovaya.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ffdan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

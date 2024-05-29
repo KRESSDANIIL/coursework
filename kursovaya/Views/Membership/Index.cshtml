@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "_Layout";
+}
+@using Kursovaya.Models
+@model List<MembershipViewModel>
+<h1>Пропуски</h1>
+<a class="btn btn-primary" asp-controller="Membership" asp-action="Insert" style="margin-top:5px; margin-bottom:5px;">Добавить Пропуск</a>
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Тип абонимента</th>
+                <th>Цена</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Member in Model)
+            {
+                <tr>
+                    <td>@Member.Id</td>
+                    <td>@Member.MembershipType</td>
+                    <td>@Member.Cost</td>
+                    <td><a class="btn btn-danger btn-sm" style="margin: 0.2em" asp-action="Remove" asp-route-id="@Member.Id">Удалить</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

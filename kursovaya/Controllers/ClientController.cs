@@ -89,6 +89,16 @@ namespace Kursovaya.Controllers
             ctx.ClientMemberships.Add(clientMembership);
             await ctx.SaveChangesAsync();
 
+            var payment = new Payment
+            {
+                ClientId = client.Id,
+                MembershipId = membership.Id,
+                PaymentDate = DateTime.Now,
+                PaymentAmount = membership.Cost
+            };
+            ctx.Payments.Add(payment);
+            await ctx.SaveChangesAsync();
+
             return RedirectToAction("Index");
         }
 
