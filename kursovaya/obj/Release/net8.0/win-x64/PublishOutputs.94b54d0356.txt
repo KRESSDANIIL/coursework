@@ -1,0 +1,4 @@
+C:\Users\ffdan\source\repos\Git\kursovaya\bin\Release\net8.0\win-x64\publish\appsettings.Development.json
+C:\Users\ffdan\source\repos\Git\kursovaya\bin\Release\net8.0\win-x64\publish\appsettings.json
+C:\Users\ffdan\source\repos\Git\kursovaya\bin\Release\net8.0\win-x64\publish\Kursovaya.pdb
+C:\Users\ffdan\source\repos\Git\kursovaya\bin\Release\net8.0\win-x64\publish\Kursovaya.exe

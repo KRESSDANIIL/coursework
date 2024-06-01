@@ -51,23 +51,6 @@ namespace Kursovaya.Controllers
             return RedirectToAction("Index");
         }
 
-
-        [HttpGet]
-        public async Task<IActionResult> Renew(int id)
-        {
-
-            var existingPayment = ctx.Payments.Find(id);
-            if (existingPayment == null)
-            {
-                return NotFound();
-            }
-
-            existingPayment.PaymentDate = DateTime.Now;
-            await ctx.SaveChangesAsync();
-
-            return RedirectToAction("Index");
-        }
-
     }
 }
 

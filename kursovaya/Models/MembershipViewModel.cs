@@ -12,6 +12,7 @@ namespace Kursovaya.Models
         [Required(ErrorMessage = "Необходимо указать тип абонимента")]
         [Display(Name = "Тип абонимента")]
         public string MembershipType { get; set; }
+
         [Required(ErrorMessage = "Необходимо указать цену")]
         [Display(Name = "Цена")]
         public float Cost { get; set; }

@@ -62,47 +62,12 @@ public class LoginController : Controller
         return View(model);
     }
 
-    //[HttpPost]
-    //public async Task<IActionResult> Login(LoginViewModel model)
-    //{
-    //    if (ModelState.IsValid)
-    //    {
-    //        var CoreAdminlogin = await _context.Users.FirstOrDefaultAsync(l => l.UserName == model.AdminLogin && l.Password == model.AdminPassword && l.Role == "CoreAdmin");
-    //        var Adminlogin = await _context.Users.FirstOrDefaultAsync(l => l.UserName == model.AdminLogin && l.Password == model.AdminPassword && l.Role == "Admin");
-    //        if (CoreAdminlogin != null)
-    //        {
-    //            //var loginViewModel = new LoginViewModel
-    //            //{
-    //            //    AdminLogin = CoreAdminlogin.Username,
-    //            //    AdminPassword = CoreAdminlogin.Password
-    //            //};
-    //            //return View("SeccesCoreAdmin", loginViewModel);
-    //            return View("SeccesCoreAdmin");
-    //        }
-    //        else if (Adminlogin != null)
-    //        {
-    //            //var loginViewModel = new LoginViewModel
-    //            //{
-    //            //    AdminLogin = Adminlogin.Username,
-    //            //    AdminPassword = Adminlogin.Password
-    //            //};
-    //            //return View("SeccesAdmin", loginViewModel);
-    //            return View("SeccesAdmin");
-    //        }
-    //        else
-    //        {
-    //            ModelState.AddModelError("", "Invalid login or password.");
-    //        }
-    //    }
-
-    //    return View(model);
-    //}
 
     public async Task<IActionResult> Logout()
     {
         await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-        return RedirectToAction("Login");
+        return RedirectToAction("Index", "Home");
     }
 
 }

@@ -37,7 +37,12 @@ namespace Data
         public DateTime DateOfBirth { get; set; }
         public string Gender { get; set; }
         public string MembershipType { get; set; }
-        public virtual ICollection<ClientMembership> ClientMemberships { get; set; }
+
+        // Свойства для начала и окончания членства
+        public DateTime MembershipStartDate { get; set; }
+        public DateTime MembershipEndDate { get; set; }
+
+        // Навигационное свойство для платежей
         public virtual ICollection<Payment> Payments { get; set; }
     }
     public class ClientMembership
@@ -89,8 +94,11 @@ namespace Data
         public DateTime PaymentDate { get; set; }
         public float PaymentAmount { get; set; }
         public int ClientId { get; set; }
-        // Navigation properties
+
+        // Навигационное свойство для клиента
         public virtual Client Client { get; set; }
+
+        // Навигационное свойство для членства
         public virtual Membership Membership { get; set; }
     }
 

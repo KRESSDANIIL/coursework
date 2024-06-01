@@ -36,6 +36,9 @@ namespace Kursovaya.Controllers
                     DateOfBirth = client.DateOfBirth,
                     Gender = client.Gender,
                     MembershipType = client.MembershipType,
+                    MembershipStartDate = client.MembershipStartDate,
+                    MembershipEndDate = client.MembershipEndDate
+
                 };
 
                 clientViewModels.Add(thisViewModel);
@@ -60,6 +63,7 @@ namespace Kursovaya.Controllers
                 return View(clientView);
             }
 
+
             var membership = await ctx.Memberships.FirstOrDefaultAsync(m => m.MembershipType == clientView.MembershipType);
             if (membership == null)
             {
@@ -76,6 +80,8 @@ namespace Kursovaya.Controllers
                 DateOfBirth = clientView.DateOfBirth,
                 Gender = clientView.Gender,
                 MembershipType = clientView.MembershipType,
+                MembershipStartDate = clientView.MembershipStartDate,
+                MembershipEndDate = clientView.MembershipEndDate
             };
 
             ctx.Clients.Add(client);

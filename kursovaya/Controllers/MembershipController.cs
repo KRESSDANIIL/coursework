@@ -32,10 +32,6 @@ namespace Kursovaya.Controllers
             return View(viewModel);
         }
 
-        public IActionResult Create()
-        {
-            return View(new MembershipViewModel());
-        }
 
         [HttpGet]
         public IActionResult Insert()
@@ -44,10 +40,11 @@ namespace Kursovaya.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(MembershipViewModel viewModel)
+        public IActionResult Insert(MembershipViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
+
                 var membership = new Membership
                 {
                     MembershipType = viewModel.MembershipType,

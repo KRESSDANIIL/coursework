@@ -51,11 +51,11 @@ namespace Kursovaya.Controllers
 
                         if (payments != null)
                         {
-                            var paymentDate = payments.PaymentDate;
-                            var currentDate = DateTime.Now;
-                            var diff = currentDate - paymentDate;
+                            var EndDate = client.MembershipEndDate;
+                            var ThisDate = DateTime.Now;
+                            var diff = EndDate - ThisDate;
 
-                            if (diff.Days > 30)
+                            if (diff.Days <0)
                             {
                                 ModelState.AddModelError("", "Абоннимент устарел");
                                 return View("Index", ChekerView);
@@ -66,19 +66,23 @@ namespace Kursovaya.Controllers
                     }
                     else
                     {
+                        ModelState.AddModelError("", "Не найден");
                         return View("Index");
                     }
                 }
                 else
                 {
+                    ModelState.AddModelError("", "Не найден");
                     return View("Index");
                 }
             }
             else
             {
+                ModelState.AddModelError("", "Не найден");
                 return View("Index");
             }
         }
+
     }
 
 }

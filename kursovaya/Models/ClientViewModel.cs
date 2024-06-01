@@ -19,10 +19,12 @@ namespace Kursovaya.Models
 
         [Required(ErrorMessage = "Необходимо указать E-mail")]
         [Display(Name = "E-mail")]
+        [RegularExpression(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", ErrorMessage = "Неправильный формат эл почты")]
         public required string Email { get; set; }
 
         [Required(ErrorMessage = "Необходимо указать телефон")]
         [Display(Name = "Телефон")]
+        [RegularExpression(@"^(\+7)[0-9]{10}$", ErrorMessage = "Неправильный формат номера телефона. Ожидалось +7XXXXXXXXXX.")]
         public required string Phone { get; set; }
 
         [Required(ErrorMessage = "Необходимо указать дату рождения")]
@@ -32,12 +34,19 @@ namespace Kursovaya.Models
 
         [Required(ErrorMessage = "Необходимо указать пол")]
         [Display(Name = "Пол")]
-
+        [RegularExpression(@"^(М|Ж|)$", ErrorMessage = "Введите данные в бодходящем формате (М|Ж|).")]
         public required string Gender { get; set; }
 
         [Required(ErrorMessage = "Необходимо указать Тип пропуска")]
         [Display(Name = "Тип пропуска")]
         public string MembershipType { get; set; }
+
+        [Required(ErrorMessage = "Необходимо указать дату начала абанимента")]
+        [Display(Name = "Дата начала абонимент")]
+        public DateTime MembershipStartDate { get; set; }
+        [Required(ErrorMessage = "Необходимо указать дату окончания абанимента")]
+        [Display(Name = "Дата окончания абанимента")]
+        public DateTime MembershipEndDate { get; set; }
 
     }
 }
