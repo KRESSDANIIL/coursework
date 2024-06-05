@@ -55,7 +55,7 @@ public class LoginController : Controller
             }
             else
             {
-                ModelState.AddModelError("", "Invalid login or password.");
+                ModelState.AddModelError("", "Неправельный логин или пароль.");
             }
         }
 

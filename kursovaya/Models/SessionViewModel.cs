@@ -17,9 +17,6 @@ namespace Kursovaya.Models
         [Display(Name = "Дата и время")]
         public DateTime SessionDate { get; set; }
 
-        [Required(ErrorMessage = "Необходимо указать время начала")]
-        [Display(Name = "Время начала")]
-        public TimeSpan SessionTime { get; set; }
 
         [Required(ErrorMessage = "Необходимо указать длительность")]
         [Display(Name = "Длительность")]

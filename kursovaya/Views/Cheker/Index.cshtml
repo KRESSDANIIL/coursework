@@ -4,19 +4,14 @@
 @using Kursovaya.Models
 @model Kursovaya.Models.ChekerViewModel
 
-<h2>Check Sessions</h2>
+<h2>Проверить абонимент</h2>
 
 <form asp-action="Insert">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <div class="form-group">
-        <label asp-for="FirstName" class="control-label"></label>
-        <input asp-for="FirstName" class="form-control" />
-        <span asp-validation-for="FirstName" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="LastName" class="control-label"></label>
-        <input asp-for="LastName" class="form-control" />
-        <span asp-validation-for="LastName" class="text-danger"></span>
+        <label asp-for="MembershipType" class="control-label"></label>
+        <input asp-for="MembershipType" class="form-control" />
+        <span asp-validation-for="MembershipType" class="text-danger"></span>
     </div>
     <div class="form-group">
         <input type="submit" value="Check Sessions" class="btn btn-primary" />

@@ -63,6 +63,11 @@ namespace Kursovaya.Controllers
 
             if (ModelState.IsValid)
             {
+                if (session.SessionDate <= DateTime.Now)
+                {
+                    ModelState.AddModelError("", "Ошибка в указанных датах");
+                    return View(sessionView);
+                }
                 var membership = ctx.Memberships.Find(session.MembershipId);
                 if (membership == null)
                 {

@@ -67,7 +67,7 @@ namespace Kursovaya.Controllers
             var membership = await ctx.Memberships.FirstOrDefaultAsync(m => m.MembershipType == clientView.MembershipType);
             if (membership == null)
             {
-                ModelState.AddModelError("", "Membership type does not exist");
+                ModelState.AddModelError("", "Абонемент не существует");
                 return View(clientView);
             }
 
@@ -84,30 +84,31 @@ namespace Kursovaya.Controllers
                 MembershipEndDate = clientView.MembershipEndDate
             };
 
-            ctx.Clients.Add(client);
-            await ctx.SaveChangesAsync();
-
-            var clientMembership = new ClientMembership
+            if (client.MembershipEndDate <= DateTime.Now || client.DateOfBirth <= DateTime.Now)
             {
-                ClientId = client.Id,
-                MembershipId = membership.Id,
-            };
-            ctx.ClientMemberships.Add(clientMembership);
-            await ctx.SaveChangesAsync();
-
-            var payment = new Payment
+                ModelState.AddModelError("", "Ошибка в указанных датах");
+                return View(clientView);
+            }
+            else
             {
-                ClientId = client.Id,
-                MembershipId = membership.Id,
-                PaymentDate = DateTime.Now,
-                PaymentAmount = membership.Cost
-            };
-            ctx.Payments.Add(payment);
-            await ctx.SaveChangesAsync();
+                ctx.Clients.Add(client);
+                await ctx.SaveChangesAsync();
 
-            return RedirectToAction("Index");
+
+
+                var payment = new Payment
+                {
+                    ClientId = client.Id,
+                    MembershipId = membership.Id,
+                    PaymentDate = DateTime.Now,
+                    PaymentAmount = membership.Cost
+                };
+                ctx.Payments.Add(payment);
+                await ctx.SaveChangesAsync();
+
+                return RedirectToAction("Index");
+            }
         }
-
 
         public IActionResult Remove(int id)
         {

@@ -9,11 +9,12 @@ using System.Reflection;
 
 namespace Kursovaya.Controllers
 {
-    [Authorize(Roles = "CoreAdmin")]
+    [Authorize(Roles = "Admin, CoreAdmin")]
     public class MembershipController(
         ApplicationDbContext ctx
         ) : Controller
     {
+        [Authorize(Roles = "Admin, CoreAdmin")]
         public IActionResult Index()
         {
             var memberships = ctx.Memberships.ToList();
@@ -32,13 +33,14 @@ namespace Kursovaya.Controllers
             return View(viewModel);
         }
 
-
+        [Authorize(Roles = "CoreAdmin")]
         [HttpGet]
         public IActionResult Insert()
         {
             return View();
         }
 
+        [Authorize(Roles = "CoreAdmin")]
         [HttpPost]
         public IActionResult Insert(MembershipViewModel viewModel)
         {
@@ -60,6 +62,7 @@ namespace Kursovaya.Controllers
             return View(viewModel);
         }
 
+        [Authorize(Roles = "CoreAdmin")]
         public IActionResult Remove(int id)
         {
             var model = ctx.Memberships.Find(id);

@@ -18,69 +18,25 @@ namespace Kursovaya.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Insert(ChekerViewModel ChekerView)
+        public async Task<IActionResult> Insert(ChekerViewModel chekerView)
         {
             if (!ModelState.IsValid)
             {
-                return View("Index", ChekerView);
+                return View("Index", chekerView);
             }
 
-            var client = await ctx.Clients
-             .Where(c => c.FirstName == ChekerView.FirstName && c.LastName == ChekerView.LastName)
-             .FirstOrDefaultAsync();
+            var sessions = await ctx.Sessions
+                .Include(s => s.Membership)
+                .Where(s => s.Membership.MembershipType == chekerView.MembershipType)
+                .ToListAsync();
 
-            if (client != null)
+            if (sessions == null || sessions.Count == 0)
             {
-                var clientMemberships = await ctx.ClientMemberships
-                 .Where(cm => cm.ClientId == client.Id)
-                 .Select(cm => cm.MembershipId)
-                 .ToListAsync();
-
-                if (clientMemberships != null)
-                {
-                    var sessions = await ctx.Sessions
-                     .Where(s => clientMemberships.Contains(s.MembershipId))
-                     .ToListAsync();
-
-                    if (sessions != null)
-                    {
-                        var payments = await ctx.Payments
-                         .Where(p => p.ClientId == client.Id)
-                         .OrderByDescending(p => p.PaymentDate)
-                         .FirstOrDefaultAsync();
-
-                        if (payments != null)
-                        {
-                            var EndDate = client.MembershipEndDate;
-                            var ThisDate = DateTime.Now;
-                            var diff = EndDate - ThisDate;
-
-                            if (diff.Days <0)
-                            {
-                                ModelState.AddModelError("", "Абоннимент устарел");
-                                return View("Index", ChekerView);
-                            }
-                        }
-
-                        return View("insert", sessions);
-                    }
-                    else
-                    {
-                        ModelState.AddModelError("", "Не найден");
-                        return View("Index");
-                    }
-                }
-                else
-                {
-                    ModelState.AddModelError("", "Не найден");
-                    return View("Index");
-                }
+                ModelState.AddModelError("", "Сессии для указанного типа пропуска не найдены.");
+                return View("Index", chekerView);
             }
-            else
-            {
-                ModelState.AddModelError("", "Не найден");
-                return View("Index");
-            }
+
+            return View("Insert", sessions);
         }
 
     }

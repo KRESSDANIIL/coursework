@@ -4,12 +4,9 @@ namespace Kursovaya.Models
 {
     public class ChekerViewModel
     {
-        [Required]
-        [Display(Name = "Имя")]
-        public string FirstName { get; set; }
 
-        [Required]
-        [Display(Name = "Фамилия")]
-        public string LastName { get; set; }
+        [Required(ErrorMessage = "Необходимо указать тип абонимента")]
+        [Display(Name = "Тип абонимента")]
+        public string MembershipType { get; set; }
     }
 }

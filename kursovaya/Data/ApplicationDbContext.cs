@@ -17,7 +17,6 @@ namespace Data
         public DbSet<Session> Sessions { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Membership> Memberships { get; set; }
-        public DbSet<ClientMembership> ClientMemberships { get; set; }
     }
     public class User
     {
@@ -45,15 +44,7 @@ namespace Data
         // Навигационное свойство для платежей
         public virtual ICollection<Payment> Payments { get; set; }
     }
-    public class ClientMembership
-    {
-        [Key]
-        public int Id { get; set; }
-        public int ClientId { get; set; }
-        public int MembershipId { get; set; }
-        public virtual Client Client { get; set; }
-        public virtual Membership Membership { get; set; }
-    }
+
     public class Membership
     {
         public int Id { get; set; }

@@ -9,7 +9,7 @@ using System.Reflection;
 
 namespace Kursovaya.Controllers
 {
-    [Authorize(Roles = "Admin, CoreAdmin")]
+    [Authorize(Roles = "CoreAdmin")]
     public class TrainerController(
         ApplicationDbContext ctx
         ) : Controller
