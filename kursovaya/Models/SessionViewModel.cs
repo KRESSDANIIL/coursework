@@ -26,8 +26,8 @@ namespace Kursovaya.Models
         [Display(Name = "Тип")]
         public string SessionType { get; set; }
 
-        [Required(ErrorMessage = "Необходимо указать нужный пропуск")]
-        [Display(Name = "Id Пропуска")]
+        [Required(ErrorMessage = "Необходимо указать нужный абонемент")]
+        [Display(Name = "Id абонемента")]
         public int MembershipId { get; set; }
     }
 }

@@ -84,7 +84,7 @@ namespace Kursovaya.Controllers
                 MembershipEndDate = clientView.MembershipEndDate
             };
 
-            if (client.MembershipEndDate <= DateTime.Now || client.DateOfBirth <= DateTime.Now)
+            if (client.MembershipEndDate <= DateOnly.FromDateTime(DateTime.Now) || client.DateOfBirth >= DateOnly.FromDateTime(DateTime.Now))
             {
                 ModelState.AddModelError("", "Ошибка в указанных датах");
                 return View(clientView);

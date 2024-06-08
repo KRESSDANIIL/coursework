@@ -33,13 +33,13 @@ namespace Data
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
-        public DateTime DateOfBirth { get; set; }
+        public DateOnly DateOfBirth { get; set; }
         public string Gender { get; set; }
         public string MembershipType { get; set; }
 
         // Свойства для начала и окончания членства
-        public DateTime MembershipStartDate { get; set; }
-        public DateTime MembershipEndDate { get; set; }
+        public DateOnly MembershipStartDate { get; set; }
+        public DateOnly MembershipEndDate { get; set; }
 
         // Навигационное свойство для платежей
         public virtual ICollection<Payment> Payments { get; set; }

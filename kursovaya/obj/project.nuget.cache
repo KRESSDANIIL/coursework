@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fL+Ds15KH/C5g0VLWATvpJNLqD/Q7YteMvBS6ZLGrdWWS8KCkNg2IxMOpqSdsWd04jL2kp60OszLOZIirSuHdQ==",
+  "dgSpecHash": "w5E+CU9InK63NuyBNzwqXM5+9Xnvf5aVIu8pENWyuAn5IuKHzCI8l7hUNGHMugMm/XEQQDTJYYf28tXnBElQIQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ffdan\\source\\repos\\Git\\kursovaya\\Kursovaya.csproj",
   "expectedPackageFiles": [
@@ -64,6 +64,7 @@
     "C:\\Users\\ffdan\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.35.0\\microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.35.0\\microsoft.identitymodel.tokens.6.35.0.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "C:\\Users\\ffdan\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.5\\microsoft.net.illink.tasks.8.0.5.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
@@ -72,6 +73,8 @@
     "C:\\Users\\ffdan\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.2\\pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
+    "C:\\Users\\ffdan\\.nuget\\packages\\runtime.any.system.runtime\\4.3.0\\runtime.any.system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\ffdan\\.nuget\\packages\\runtime.any.system.text.encoding\\4.3.0\\runtime.any.system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
@@ -90,6 +93,7 @@
     "C:\\Users\\ffdan\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ffdan\\.nuget\\packages\\system.private.uri\\4.3.0\\system.private.uri.4.3.0.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\system.runtime.caching\\8.0.0\\system.runtime.caching.8.0.0.nupkg.sha512",
@@ -106,7 +110,10 @@
     "C:\\Users\\ffdan\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\ffdan\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
-    "C:\\Users\\ffdan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\ffdan\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\ffdan\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.5\\microsoft.netcore.app.runtime.win-x64.8.0.5.nupkg.sha512",
+    "C:\\Users\\ffdan\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.5.nupkg.sha512",
+    "C:\\Users\\ffdan\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.5\\microsoft.aspnetcore.app.runtime.win-x64.8.0.5.nupkg.sha512"
   ],
   "logs": [
     {

@@ -30,23 +30,23 @@ namespace Kursovaya.Models
         [Required(ErrorMessage = "Необходимо указать дату рождения")]
         [Display(Name = "Дата рождения")]
 
-        public required DateTime DateOfBirth { get; set; }
+        public required DateOnly DateOfBirth { get; set; }
 
         [Required(ErrorMessage = "Необходимо указать пол")]
         [Display(Name = "Пол")]
         [RegularExpression(@"^(М|Ж|)$", ErrorMessage = "Введите данные в бодходящем формате (М|Ж|).")]
         public required string Gender { get; set; }
 
-        [Required(ErrorMessage = "Необходимо указать Тип пропуска")]
-        [Display(Name = "Тип пропуска")]
+        [Required(ErrorMessage = "Необходимо указать Тип абонемента")]
+        [Display(Name = "Тип абонемента")]
         public string MembershipType { get; set; }
 
         [Required(ErrorMessage = "Необходимо указать дату начала абанимента")]
         [Display(Name = "Дата начала абонимент")]
-        public DateTime MembershipStartDate { get; set; }
+        public DateOnly MembershipStartDate { get; set; }
         [Required(ErrorMessage = "Необходимо указать дату окончания абанимента")]
         [Display(Name = "Дата окончания абанимента")]
-        public DateTime MembershipEndDate { get; set; }
+        public DateOnly MembershipEndDate { get; set; }
 
     }
 }

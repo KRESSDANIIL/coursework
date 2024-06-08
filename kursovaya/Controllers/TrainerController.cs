@@ -9,11 +9,12 @@ using System.Reflection;
 
 namespace Kursovaya.Controllers
 {
-    [Authorize(Roles = "CoreAdmin")]
+    [Authorize(Roles = "Admin, CoreAdmin")]
     public class TrainerController(
         ApplicationDbContext ctx
         ) : Controller
     {
+        [Authorize(Roles = "Admin, CoreAdmin")]
         public IActionResult Index()
         {
             var Trainers = ctx.Trainers.ToList();
@@ -36,7 +37,7 @@ namespace Kursovaya.Controllers
             return View(trainserViewModels);
         }
 
-       
+        [Authorize(Roles = "CoreAdmin")]
         [HttpGet]
         public IActionResult Insert()
         {
@@ -44,7 +45,7 @@ namespace Kursovaya.Controllers
         }
 
 
-
+        [Authorize(Roles = "CoreAdmin")]
         [HttpPost]
         public IActionResult Insert(TrainerViewModel trainerView)
         {
@@ -68,7 +69,7 @@ namespace Kursovaya.Controllers
             return View(trainerView);
         }
 
-       
+        [Authorize(Roles = "CoreAdmin")]
         public IActionResult Remove(int id)
         {
             var model = ctx.Trainers.Find(id);

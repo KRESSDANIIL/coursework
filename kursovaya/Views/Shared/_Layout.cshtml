@@ -35,7 +35,7 @@
                             <a class="nav-link text-white" asp-area="" asp-controller="Payment" asp-action="Index">Платежи</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Membership" asp-action="Index">Пропуски</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Membership" asp-action="Index">Абонементы</a>
                         </li>
                         <li class="nav-item">
                         </li>
@@ -88,10 +88,13 @@ else if ((await AuthorizationService.AuthorizeAsync(User, "AdminPolicy")).Succee
                             <a class="nav-link text-white" asp-area="" asp-controller="Payment" asp-action="Index">Платежи</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Trainer" asp-action="Index">Тренеры</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-controller="Session" asp-action="Index">Занятия</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Membership" asp-action="Index">Пропуски</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Membership" asp-action="Index">Абонементы</a>
                         </li>
                     </ul>
                 </div>
